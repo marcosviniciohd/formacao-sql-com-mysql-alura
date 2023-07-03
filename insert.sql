@@ -25,3 +25,12 @@ SELECT * FROM tbVendedores;
 SELECT NOME FROM tbVendedores;
 
 UPDATE tbVendedores SET NOME = 'José Geraldo da Fonseca Junior' WHERE MATRICULA = '00233';
+
+
+DELETE FROM tbProduto WHERE PRODUTO = 1;
+SELECT * FROM tbProduto;
+
+DELETE FROM tbVendedores WHERE MATRICULA = '00233';
+SELECT * FROM tbVendedores;
+
+INSERT INTO tbVendedores (MATRICULA, NOME, PERCENTUAL_COMISSAO) VALUES ('0404', 'Marcos Vinício Fernandes', 0.15);
